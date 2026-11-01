@@ -1,0 +1,26 @@
+# Environment & local secrets (never commit real credentials)
+.env
+*.env
+!.env.example
+*.env.local
+
+# Java / Spring Boot / Maven
+backend/target/
+target/
+**/maven-wrapper.jar
+*.log
+
+# Node / React / Vite
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+frontend/.vite/
+frontend/package-lock.json
+
+# IDEs & OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
