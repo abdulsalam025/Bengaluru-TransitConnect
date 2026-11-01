@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="Bengaluru Multi-Modal Shortcut Time Comparison">
+  <rect width="1200" height="330" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" />
+
+  <!-- Header -->
+  <text x="36" y="42" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" fill="#0F172A">
+    Multi-Modal Shortcut Benchmark: Combined (BMTC + Metro) vs Single-Mode Metro Detour
+  </text>
+  <text x="36" y="65" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#475569">
+    Computed live by TransitGraphEngine (Low-Walk Ride-Leg Dijkstra) from MySQL 8 schedules, transfer_points &amp; fare_rules
+  </text>
+
+  <!-- Legend -->
+  <rect x="820" y="26" width="16" height="16" rx="4" fill="#2563EB" />
+  <text x="844" y="39" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1E293B">Combined Shortcut</text>
+  <rect x="985" y="26" width="16" height="16" rx="4" fill="#94A3B8" />
+  <text x="1009" y="39" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#475569">Metro-Only Detour</text>
+
+  <!-- Row 1 -->
+  <g transform="translate(36, 92)">
+    <text x="0" y="18" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A">Silk Board -&gt; Whitefield</text>
+    <text x="0" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B">500-D + KR Puram + Purple</text>
+    <rect x="235" y="2" width="368" height="18" rx="6" fill="#2563EB" />
+    <text x="612" y="16" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#1D4ED8">46 mins (Rs. 55)</text>
+    <rect x="235" y="24" width="568" height="16" rx="6" fill="#CBD5E1" />
+    <text x="812" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#475569">71 mins (Rs. 60, 2 transfers)</text>
+    <rect x="1015" y="8" width="118" height="26" rx="13" fill="#DCFCE7" stroke="#86EFAC" />
+    <text x="1074" y="25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#15803D">-25 mins saved</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(36, 150)">
+    <text x="0" y="18" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A">Hanumantha Nagar -&gt; Mysuru Rd</text>
+    <text x="0" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B">GPS Walk + BMTC 60-A Direct</text>
+    <rect x="235" y="2" width="160" height="18" rx="6" fill="#2563EB" />
+    <text x="404" y="16" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#1D4ED8">20 mins (Rs. 12)</text>
+    <rect x="235" y="24" width="440" height="16" rx="6" fill="#CBD5E1" />
+    <text x="684" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#475569">55 mins (Rs. 30 via Majestic)</text>
+    <rect x="1015" y="8" width="118" height="26" rx="13" fill="#DCFCE7" stroke="#86EFAC" />
+    <text x="1074" y="25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#15803D">-35 mins saved</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(36, 208)">
+    <text x="0" y="18" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A">Jayanagar -&gt; Mysuru Road</text>
+    <text x="0" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B">BMTC 60-A SW Diagonal</text>
+    <rect x="235" y="2" width="176" height="18" rx="6" fill="#2563EB" />
+    <text x="420" y="16" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#1D4ED8">22 mins (Rs. 18)</text>
+    <rect x="235" y="24" width="248" height="16" rx="6" fill="#CBD5E1" />
+    <text x="492" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#475569">31 mins (Rs. 30 via Majestic)</text>
+    <rect x="1015" y="8" width="118" height="26" rx="13" fill="#DCFCE7" stroke="#86EFAC" />
+    <text x="1074" y="25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#15803D">-9 mins &amp; Rs.12</text>
+  </g>
+
+  <!-- Row 4 -->
+  <g transform="translate(36, 266)">
+    <text x="0" y="18" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A">Banashankari -&gt; Kengeri</text>
+    <text x="0" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B">BMTC 401-K + Purple Line</text>
+    <rect x="235" y="2" width="280" height="18" rx="6" fill="#2563EB" />
+    <text x="524" y="16" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#1D4ED8">35 mins (Rs. 48)</text>
+    <rect x="235" y="24" width="352" height="16" rx="6" fill="#CBD5E1" />
+    <text x="596" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#475569">44 mins (Rs. 50, 22.2 km loop)</text>
+    <rect x="1015" y="8" width="118" height="26" rx="13" fill="#DCFCE7" stroke="#86EFAC" />
+    <text x="1074" y="25" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#15803D">-9 mins &amp; 8.6 km</text>
+  </g>
+</svg>
