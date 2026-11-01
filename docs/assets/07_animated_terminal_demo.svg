@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Animated PowerShell Verification Console">
+  <rect width="1200" height="320" rx="18" fill="#090D16" stroke="#1E293B" stroke-width="2" />
+  <rect width="1200" height="42" rx="18" fill="#111827" />
+  <rect y="24" width="1200" height="18" fill="#111827" />
+
+  <!-- Window Traffic Lights -->
+  <circle cx="28" cy="21" r="6.5" fill="#EF4444" />
+  <circle cx="50" cy="21" r="6.5" fill="#F59E0B" />
+  <circle cx="72" cy="21" r="6.5" fill="#10B981" />
+  <text x="600" y="26" text-anchor="middle" font-family="Consolas, Courier New, monospace" font-size="13" font-weight="700" fill="#94A3B8">
+    Windows PowerShell  --  BengaluruTransitConnect\scripts\verify_phase9_all.ps1
+  </text>
+
+  <g font-family="Consolas, Courier New, monospace" font-size="14">
+    <text x="32" y="76" fill="#38BDF8" font-weight="700">
+      PS C:\Users\BengaluruTransitConnect&gt; .\scripts\verify_phase9_all.ps1
+    </text>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1" dur="9s" repeatCount="indefinite" />
+      <text x="32" y="108" fill="#A7F3D0">[1/5] MySQL 8.x Schema Check .... OK  (20 3NF Base Tables | 211 Columns | 93 Constraints)</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.18;0.26;0.92;1" dur="9s" repeatCount="indefinite" />
+      <text x="32" y="140" fill="#A7F3D0">[2/5] SQL Programmability ....... OK  (4 Analytical Views | 5 Triggers | 3 Stored Procs)</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.42;0.92;1" dur="9s" repeatCount="indefinite" />
+      <text x="32" y="172" fill="#FDE047">[3/5] EXPLAIN Query Optimizer ... OK  (7/7 Composite Index Hits | 0 Full-Table Scans)</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.50;0.58;0.92;1" dur="9s" repeatCount="indefinite" />
+      <text x="32" y="204" fill="#C4B5FD">[4/5] ACID Wallet Lock Test ..... OK  (FOR UPDATE + SQLSTATE 45000 Rollback Verified)</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.74;0.92;1" dur="9s" repeatCount="indefinite" />
+      <text x="32" y="236" fill="#34D399" font-weight="700">[5/5] Spring Boot JUnit 5 + Vite  OK  (Tests run: 15, Failures: 0, Errors: 0 -- BUILD SUCCESS)</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.78;0.84;0.92;1" dur="9s" repeatCount="indefinite" />
+      <rect x="32" y="256" width="690" height="34" rx="8" fill="#064E3B" stroke="#10B981" />
+      <text x="48" y="278" fill="#ECFDF5" font-weight="700">READY -&gt; http://localhost:5173 (React UI)  |  http://localhost:8080/api (Spring Boot)</text>
+    </g>
+  </g>
+</svg>
